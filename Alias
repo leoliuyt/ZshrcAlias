@@ -15,7 +15,7 @@ alias switchtozsh="chsh -s /bin/zsh;"
 alias itunesapppath="open /Users/`whoami`/Music/iTunes/iTunes\ Media;"
 alias useproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias useproxy_surge="export https_proxy=http://127.0.0.1:6152;export http_proxy=http://127.0.0.1:6152"
-function ss_on(){export ALL_PROXY=socks5://127.0.0.1:1080;echo "已开启代理";}
+function ss_on(){export ALL_PROXY=socks5://127.0.0.1:1086;echo "已开启代理";}
 function ss_off(){unset ALL_PROXY;echo "已关闭代理";}
 function gi(){curl -L -s https://www.gitignore.io/api/$@;}
 alias boostlocalbin="chmod +rw /usr/local/bin;"
