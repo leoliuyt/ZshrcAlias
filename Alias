@@ -81,3 +81,7 @@ alias jenkinspassword="cat /Users/`whoami`/.jenkins/secrets/initialAdminPassword
 #alias Pem->Der="openssl x509 -in cert.crt -outform der -out cert.der;"
 #alias DerToPem="openssl x509 -in cert.crt -inform der -outform pem -out cert.pem"
 #alias signmobileconfig="openssl smime -sign -in udid.mobileconfig -out udidsinged.mobileconfig -signer InnovCertificates.pem -certfile AppleIncRootCertificate.pem -outform der -nodetach;"
+alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias mvim="open -a MacVim.app"
+alias xcode="open -a Xcode.app"
